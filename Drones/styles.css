@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;  
+}
+
+.drones {
+    display: inline-flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto auto;
+}
+
+th, td {
+    border: 1px solid #00796b;
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+}
+
+.Mavic {
+    text-align: center;
+    color: red;
+    
+}
+
+.welcome {
+    text-align: center;
+}
+
+.cont {
+    background-image: url(fish4.jpg);
+    background-size: cover;
+}
+
+.news {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+}
+
+
+#quote {
+    quotes: "'" "'";
+}
